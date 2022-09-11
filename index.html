@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plush Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <h3 class="free-phone"> FREE PHONE GRIP ON SELECT PURCHASES</h3>
+      <div class="search">
+        <h2 id="title">PlushStar</h2>
+        <input type="text" name="search" placeholder="Search" class="search-bar">
+        <div class="cart"><span id="items-count">0</span><img src="./imgs/cart-dark.png" alt="cart icon"> </div>
+      </div>
+    </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#" id="contact">Contact Us</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Plushy Store</h1>
+    <div class="sort">
+      <p><span class="num-products">62</span> Products, Sorted by <span id="sort-type">Best Selling</span></p>
+      <div class="select-menu">
+        <label for="sort-select">Sort By</label>
+        <select name="sort-select" id="sort-select">
+          <option value="Best Selling">Best selling</option>
+          <option value="Price">Price</option>
+          <option value="type">Type</option>
+        </select>
+      </div>
+    </div>
+    <section class="products">
+
+      <div class="product">
+        <img src="./imgs/product-image.png" alt="product-image">
+        <h2>Mischief Mouse</h2>
+        <button class="buy">BUY</button>
+      </div>
+
+      <div class="product">
+        <img src="./imgs/product-image.png" alt="product-image">
+        <h2>Shy Shrew</h2>
+        <button class="buy">BUY</button>
+      </div>
+
+      <div class="product">
+        <img src="./imgs/product-image.png" alt="product-image">
+        <h2>Hangry Hamster</h2>
+        <button class="buy">BUY</button>
+      </div>
+
+      <div class="product">
+        <img src="./imgs/product-image.png" alt="product-image">
+        <h2>Chilly Chinchilla</h2>
+        <button class="buy">BUY</button>
+      </div>
+
+    </section>
+
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>

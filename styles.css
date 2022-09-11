@@ -78,6 +78,12 @@ li a:hover {
   transition: .2s font-weight, .2s border-bottom;
 }
 
+li a:focus {
+  border-bottom: 5px solid var(--purple);
+  font-weight: 600;
+  transition: .2s font-weight, .2s border-bottom;
+}
+
 main {
   margin:1rem  5%;
 }
